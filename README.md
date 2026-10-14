@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Emman De Belen — Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my background as an Electronics Engineering graduate, technical skills, and selected engineering and software projects.
 
-First, run the development server:
+## Overview
+
+This portfolio brings together my experience and projects across software development, IoT system development, technical troubleshooting, and engineering.
+
+## Featured Projects
+
+- **ThermaMist** — An IoT-based environmental monitoring and automated misting system developed as a capstone project. The research was accepted and presented at the IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2026.
+- **Marcid Blue Binangonan — Water Station Database Management System** — A PHP and MySQL business management application for water station records and daily operations.
+- **Evergreen** — A personal memories web application built with Next.js and integrated with Firebase/Firestore and Google Drive.
+
+## Technologies
+
+- **Languages:** JavaScript, TypeScript, Python, Java, C++
+- **Web development:** React, Next.js, PHP, HTML, CSS
+- **Databases and APIs:** MySQL, Firebase/Firestore, REST APIs, Google APIs
+- **Tools:** Git, GitHub, Visual Studio Code, Arduino, LabVIEW, AutoCAD, QGIS
+
+## Run Locally
+
+### Requirements
+
+- Node.js (LTS recommended)
+- npm
+
+### Setup
 
 ```bash
+git clone https://github.com/emmldbln/emman-portfolio.git
+cd emman-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To create a production build:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Resume
 
-To learn more about Next.js, take a look at the following resources:
+A PDF copy of my resume is included in the project at `public/DeBelen_Resume.pdf`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is built with [Next.js](https://nextjs.org/) and can be deployed on [Vercel](https://vercel.com/).
 
-## Deploy on Vercel
+## Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[github.com/emmldbln/emman-portfolio](https://github.com/emmldbln/emman-portfolio)
